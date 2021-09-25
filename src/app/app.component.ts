@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CalendarOptions } from '@fullcalendar/angular';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-calendar';
+  
+
+
 }

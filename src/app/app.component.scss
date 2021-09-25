@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    height: 100vh;
+    
+}
+
+header.container_header {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 0.5em;
+    column-gap: 0.5em;
+    padding: 0.5em;
+    place-items: center;
+}
